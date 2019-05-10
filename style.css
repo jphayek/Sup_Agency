@@ -1,14 +1,221 @@
-body {
+body , html{
+    height: 100%;
+    background-image:url("image/coloor.jpg");
     padding: 5%;
-    background-color:white;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+
 }
 
-.agency {
-    color: brown;
+h1 {
+    width: 50%;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+/* La 1ère page */ 
+
+.container {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+
+}
+
+/* LES EVENEMENTS ART CULTURE */
+
+.evenements { 
+
+    display: flex;
+    top:100px;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 400px;
+
+}
+
+/* LES VILLES DE FRANCE */
+
+.ville {
+    display: flex;
+    position: relative;
+    right: 50%;
+    top: 30%;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+
+}
+
+.paris {
+    height: 300px;
+    width: 100px;
+    border: 2px solid white;
+    font-family: "open sans", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.pari {
+    display: flex;
+    color: black;
+    background-color: white;
+    height: 120px;
+    width: 120px;
+
+
+}
+
+.lille {
+    position: relative;
+    top: 50px;
+    height: 300px;
+    width: 100px;
+    border: 2px solid white;
+    font-family: "open sans", sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+.lill {
+    display: flex;
+    color: black;
+    background-color: white;
+    height: 120px;
+    width: 120px;
+
+}
+
+.dijon {
+    position: relative;
+    top: 100px;
+    height: 300px;
+    width: 100px;
+    border: 2px solid white;
+    font-family: "open sans", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.dijo {
+    display: flex;
+    color: black;
+    background-color: white;
+    height: 120px;
+    width: 120px;
+
+}
+
+/* LIGNE VERTICAL DES VILLES DE FRANCE */
+
+
+
+
+
+
+
+
+/* LES RESEAUX SOCIAUX */
+
+ul {
+
+    display: flex;
+    position: relative;
+    right: 750px;
+    top: 550px;
+}
+
+li {
+    margin-right: 50px;
+    
+}
+
+.social {
+    display: flex;
+}
+
+/* PARTIE GAUCHE */
+
+.gauche {
+    display: flex;
+    
+}
+
+
+
+.date {
+    display: flex;
+    position: relative;
+    right: 500px;
+    width: 200px;
+    height: 200px;
+    font-size: 60px;
+    font-synthesis: bold;
+    color: white;
+    font-family: "open sans" , sans-serif;
+
+}
+
+.tous {
+    position: relative;
+    right:700px;
+    top: 200px;
+    color: white;
+    font-family: "open sans" , sans-serif;
+    font-size: 30px;
+}
+
+.s {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    width: 70px;
+    height: 4px ;
+    background-color:white;
+}
+
+.q {
+    position: absolute;
+    top: 165px;
+    left: 25px;
+    width: 70px;
+    height: 4px;
+    background-color: white;
+}
+
+.k {
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    width: 70px;
+    height: 4px;
+    background-color: white;
+
+}
+
+.r {
+    position: absolute;
+    top: 355px;
+    left: 25px;
+    width: 70px;
+    height: 4px;
+    background-color: white;
+}
+
+/* VOIR PLUS */
+
+.voir h3 {
+    position: relative;
+    right: 900px;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10%;
 }
 
